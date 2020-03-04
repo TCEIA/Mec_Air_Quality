@@ -1,4 +1,11 @@
-
+ //******************************
+ //*Abstract: Read value of PM1,PM2.5 and PM10 of air quality
+ //
+ //*Version：V3.1
+ //*Author：Zuyang @ HUST
+ //*Modified by Cain for Arduino Hardware Serial port compatibility
+ //*Date：March.25.2016
+ //******************************
 #include <Arduino.h>
 #define LENG 31   //0x42 + 31 bytes equal to 32 bytes
 unsigned char buf[LENG];
